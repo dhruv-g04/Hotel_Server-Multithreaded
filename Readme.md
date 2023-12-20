@@ -1,8 +1,8 @@
 #Hotel Booking System
 
-This project implements a simple hotel booking system with a server (`4_hotel_server.py`) and a client (`4_hotel_client.py`) using Python's socket and threading modules.
+This project implements a simple hotel booking system with a server (`hotel_server.py`) and a client (`hotel_client.py`) using Python's socket and threading modules.
 
-## Server (`4_hotel_server.py`)
+## Server (`hotel_server.py`)
 
 ### Features
 - Book multiple hotel rooms.
@@ -13,10 +13,10 @@ This project implements a simple hotel booking system with a server (`4_hotel_se
 ### Usage
    Run the server script on the host machine.
    ```bash
-   python3 4_hotel_server.py
+   python3 hotel_server.py
    ```
 
-   Connect clients to the server using the client script (4_hotel_client.py).
+   Connect clients to the server using the client script (hotel_client.py).
 
 ###Server Implementation
 
@@ -41,7 +41,7 @@ This project implements a simple hotel booking system with a server (`4_hotel_se
     main():
     Initializes the server, listens for incoming connections, and spawns threads to handle client messages concurrently.
 
-##Client (4_hotel_client.py)
+##Client (hotel_client.py)
 ###Features
 
     Connects to the hotel booking server.
@@ -53,7 +53,7 @@ This project implements a simple hotel booking system with a server (`4_hotel_se
     Run the client script.
 
     ```bash
-    python3 4_hotel_client.py
+    python3 hotel_client.py
     ```
 
     Enter your username and password.
